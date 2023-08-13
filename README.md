@@ -9,11 +9,11 @@
 ### 对内核的具体要求
 参考[syzkaller内核fuzzing测试工具的工作流程](https://github.com/google/syzkaller/blob/master/docs/internals.md)列出如下内核功能需支持的要求。硬件环境是qemu for riscv64。总分100分。
 1. 【10分】支持sshd for linux运行
-2. 【15分】支持syz-fuzzer for linux运行
-3. 【15分】支持syz-executor for linux运行
+2. 【10分】支持syz-fuzzer for linux运行
+3. 【10分】支持syz-executor for linux运行
 4. 【10分】参考/sys/kernel/debug/kcov的输出，直接给出类似格式的输出(不需要实现kcov功能)
-5. 【15分】实现linux的kcov功能支持，能够产生类似/sys/kernel/debug/kcov的输出
-6. 【25分】支持完整运行syzaller(注意，为此可能还需要支持上面没有列出的Linux应用或Linux系统调用)
+5. 【10分】实现linux的kcov功能支持，能够产生类似/sys/kernel/debug/kcov的输出
+6. 【40分】支持完整运行syzaller(注意，为此可能还需要支持上面没有列出的Linux应用或Linux系统调用)
 7. 【10分】完成设计实现与执行过程分析技术报告
 
 
