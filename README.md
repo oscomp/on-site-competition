@@ -13,7 +13,8 @@
 3. 【15分】支持syz-executor for linux运行
 4. 【10分】参考/sys/kernel/debug/kcov的输出，直接给出类似格式的输出(不需要实现kcov功能)
 5. 【15分】实现linux的kcov功能支持，能够产生类似/sys/kernel/debug/kcov的输出
-6. 【35分】完整运行syzaller，完成设计实现与执行过程分析报告
+6. 【25分】完整运行syzaller
+7. 【10分】完成设计实现与执行过程分析报告
 
 ### 参考
 - [kcov](https://www.kernel.org/doc/html/latest/dev-tools/kcov.html)
