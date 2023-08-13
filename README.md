@@ -1,13 +1,13 @@
 ## task 3
 
 ### 题目
-支持syzkaller for linux工具
+支持syzkaller for linux内核测试工具
 
 ### 描述
 目前内核赛道参赛队实现的OS能够支持Linux应用，所以需要在参赛队自己写的内核上支持运行[syzkaller for linux](https://github.com/google/syzkalle)这个内核测试工具。
 
 ### 对内核的具体要求
-参考[syzkaller的工作流程](https://github.com/google/syzkaller/blob/master/docs/internals.md)。硬件环境是qemu for riscv64。总分100分。
+参考[syzkaller的工作流程](https://github.com/google/syzkaller/blob/master/docs/internals.md)列出如下要求。硬件环境是qemu for riscv64。总分100分。
 1. 【10分】支持sshd for linux运行
 2. 【15分】支持syz-fuzzer for linux运行
 3. 【15分】支持syz-executor for linux运行
